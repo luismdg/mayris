@@ -50,6 +50,7 @@ export default function Finale({ site, counts, all }) {
             <div className={`likes-row r${r}`} key={r}><div>{[...Array(2)].flatMap((_, k) => site.likes.filter((_, i) => i % 2 === r).map((l, i) => <span key={k + '-' + i}>{l}<i>✿</i></span>))}</div></div>
           ))}
         </div>
+        <p className="fin-kicker">{site.finaleKicker}</p>
         <h2 className="fin-title">{site.finaleTitle}</h2>
         <div className="counters">
           <Counter since={site.startDate} label="Desde nuestro primer recuerdo" />

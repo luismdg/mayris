@@ -46,5 +46,5 @@
 
 /* ============ INTRO extras ============ */
 .intro-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; pointer-events: auto; } .intro-btn.ghost { border-style: dashed; opacity: .85; }
-.progress { top: 0; } .dots { top: 56%; }
+
 @media (max-width: 800px) { .tb-now, .tb-song { display: none; } .tb-now { display: block; } .lsheet { padding: 60px 26px 40px; } .ls-snoopy { width: 150px !important; right: -10px; top: -78px; } .tb-brand { font-size: 18px; } .rc-hat { display: none; } .tb-tab:not(.off) { transform: translate(-50%, 54px); } }

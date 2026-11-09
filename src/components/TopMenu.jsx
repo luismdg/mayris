@@ -6,21 +6,26 @@ import { SONGS, useMusic, toggle, toggleMute, ytUrl } from '../music'
 import Sticker, { THEME_ICON } from './Stickers'
 import { canEdit, openEditor } from '../edit'
 
+const lum = (hex) => { const n = parseInt(hex.slice(1), 16); return (0.299 * (n >> 16) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255 }
+
 export default function TopMenu({ story, activeId, songOf }) {
-  const [hidden, setHidden] = useState(false)   // slid away by scrolling down
-  const [folded, setFolded] = useState(false)   // folded by hand with the little tab
+  const [hidden, setHidden] = useState(false)
   const [open, setOpen] = useState(false)
+  const [discOpen, setDiscOpen] = useState(false)
   const last = useRef(0)
   const m = useMusic()
   const ch = story.shown.find((c) => c.id === activeId)
   const song = SONGS[m.key]
+  // text colour follows the background of the section underneath
+  const lightBg = activeId === 'recetas' ? true : ch ? lum(THEMES[ch.theme].bg) > 0.58 : false
+  const accent = ch ? THEMES[ch.theme].accent : '#ff3d71'
 
   useEffect(() => {
     const on = () => {
       const y = window.scrollY
-      if (y < 80) setHidden(false)
-      else if (y > last.current + 8) setHidden(true)
-      else if (y < last.current - 8) setHidden(false)
+      if (y < 60) setHidden(false)
+      else if (y > last.current + 6) setHidden(true)   // scrolling down -> disappears
+      else if (y < last.current - 6) setHidden(false)  // scrolling up -> appears
       last.current = y
     }
     window.addEventListener('scroll', on, { passive: true })
@@ -29,28 +34,35 @@ export default function TopMenu({ story, activeId, songOf }) {
   useEffect(() => { open ? stopScroll() : resumeScroll(); document.documentElement.classList.toggle('no-scroll', open) }, [open])
   useEffect(() => { const k = (e) => e.key === 'Escape' && setOpen(false); window.addEventListener('keydown', k); return () => window.removeEventListener('keydown', k) }, [])
 
-  const go = (sel) => { setOpen(false); setTimeout(() => scrollToEl(sel), 150) }
-  const off = folded || (hidden && !open)
+  const go = (sel) => { setOpen(false); setHidden(false); setTimeout(() => scrollToEl(sel), 150) }
+  const off = hidden && !open
   return (
     <>
-      <header className={`topbar ${off ? 'off' : ''}`}>
-        <button className="tb-brand" onClick={() => go('#intro')}><span>Para {story.site.to}</span></button>
-        <div className="tb-now" aria-live="polite">
-          {ch ? <><b>{ch.title}</b><i>{fmtDate(ch.start, { month: 'short', year: 'numeric' })}</i></> : <b>{story.site.to} · {story.site.from}</b>}
-        </div>
-        <div className="tb-music">
-          <button className={`tb-note ${m.playing ? 'on' : ''}`} onClick={toggle} aria-label={m.playing ? 'Pausar música' : 'Activar música'} title={m.playing ? 'Pausar' : 'Activar música'}>
-            {m.playing ? '❚❚' : '♪'}
-          </button>
-          {song && m.armed && <span className="tb-song"><b>{song.title}</b><i>{song.artist}</i></span>}
-          {m.armed && <button className="tb-mute" onClick={toggleMute} aria-label={m.muted ? 'Quitar silencio' : 'Silenciar'}>{m.muted ? '🔇' : '🔊'}</button>}
-          {m.error && <a className="tb-err" href={ytUrl(SONGS[m.error].yt)} target="_blank" rel="noopener noreferrer">abrir en YouTube</a>}
-        </div>
+      <header className={`topbar ${lightBg ? 'ink-dark' : 'ink-light'} ${open ? 'is-open' : ''} ${off ? 'off' : ''}`}>
+        <button className="tb-brand" onClick={() => go('#intro')}>Para {story.site.to}</button>
+        <div className="tb-now" aria-live="polite">{ch ? <><b>{ch.title}</b><i>{fmtDate(ch.start, { month: 'short', year: 'numeric' })}</i></> : null}</div>
         <button className="tb-burger" onClick={() => setOpen((o) => !o)} aria-label="Menú" aria-expanded={open}><i /><i /><i /></button>
       </header>
-      <button className={`tb-tab ${off ? 'off' : ''}`} onClick={() => { setFolded((f) => !f); setHidden(false) }} aria-label={folded ? 'Mostrar menú' : 'Ocultar menú'}>
-        <span>{folded ? '▾' : '▴'}</span>
-      </button>
+      <button className={`tb-tab ${lightBg ? 'ink-dark' : 'ink-light'}`} onClick={() => setHidden((h) => !h)} aria-label={off ? 'Mostrar menú' : 'Ocultar menú'}>{off ? '▾' : '▴'}</button>
+
+      <div className={`disc-wrap ${discOpen || !m.armed ? 'peek' : ''}`} style={{ '--ac': accent }}>
+        <div className="disc-info" aria-live="polite">
+          {song && m.armed ? <><b>{song.title}</b><i>{song.artist}</i></> : <><b>Música</b><i>toca el disco</i></>}
+          <span>
+            {m.armed && <button onClick={toggleMute} aria-label={m.muted ? 'Quitar silencio' : 'Silenciar'}>{m.muted ? 'sin sonido' : 'con sonido'}</button>}
+            {m.error && <a href={ytUrl(SONGS[m.error].yt)} target="_blank" rel="noopener noreferrer">abrir en YouTube</a>}
+          </span>
+        </div>
+        <button className={`disc ${m.playing ? 'spin' : ''}`} onClick={() => { toggle(); setDiscOpen(true); setTimeout(() => setDiscOpen(false), 3500) }} aria-label={m.playing ? 'Pausar música' : 'Activar música'} aria-pressed={m.playing}>
+          <svg viewBox="0 0 100 100" aria-hidden>
+            <circle cx="50" cy="50" r="48" fill="#0d0d12" stroke="#000" strokeWidth="2" />
+            {[40, 34, 28].map((r) => <circle key={r} cx="50" cy="50" r={r} fill="none" stroke="#ffffff1c" strokeWidth="1.2" />)}
+            <path d="M50 2A48 48 0 0 1 98 50" stroke="#ffffff33" strokeWidth="5" fill="none" strokeLinecap="round" />
+            <circle cx="50" cy="50" r="17" fill="var(--ac)" /><circle cx="50" cy="50" r="3.5" fill="#0d0d12" />
+            {!m.playing && <path d="M45 41l14 9-14 9z" fill="#fff" />}
+          </svg>
+        </button>
+      </div>
 
       <div className={`menu ${open ? 'open' : ''}`} aria-hidden={!open}>
         <div className="menu-in">
@@ -77,7 +89,7 @@ export default function TopMenu({ story, activeId, songOf }) {
               )
             })}
           </ol>
-          <p className="menu-foot">Esto es solo una parte de todo lo que hemos vivido. Faltan muchísimos recuerdos por agregar.</p>
+          <p className="menu-foot">Esto es solo una partecita de todo lo que hemos vivido, faltan muchísimos recuerdos por agregar.</p>
         </div>
       </div>
     </>

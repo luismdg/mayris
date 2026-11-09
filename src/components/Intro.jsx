@@ -34,7 +34,7 @@ export default function Intro({ site, pool, ready }) {
       <div className="intro-glow" aria-hidden />
       <Particles mode="petals" interactive intensity={1.2} onPetalClick={bloom} />
       <div className="intro-copy">
-        <p className="intro-eyebrow">una carta · {fmtDate(site.startDate, { month: 'long', year: 'numeric' })} — hoy</p>
+        <p className="intro-eyebrow">{site.eyebrow}</p>
         <h1>Para <em>{site.to}</em></h1>
         <p className="intro-line">{site.introLine}</p>
         <p className="intro-hint"><span /> {site.introHint}</p>

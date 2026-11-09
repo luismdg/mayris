@@ -10,7 +10,7 @@ import Particles from './components/Particles'
 import Config from './components/Config'
 import Recipes from './components/Recipes'
 import TopMenu from './components/TopMenu'
-import { playFor } from './music'
+import { playFor, autoStart } from './music'
 import { canEdit } from './edit'
 
 function Loader({ to, done }) {
@@ -18,7 +18,8 @@ function Loader({ to, done }) {
   const [leaving, setLeaving] = useState(false)
   useEffect(() => {
     let raf, t0 = performance.now(), fontsOk = false
-    document.fonts?.ready.then(() => { fontsOk = true })
+    const fams = ['Anton', 'Bebas Neue', 'Bungee', 'Caveat', 'Cormorant Garamond', 'Fredoka', 'Homemade Apple', 'Inter', 'JetBrains Mono', 'Permanent Marker', 'Playfair Display', 'Press Start 2P', 'Syne', 'VT323']
+    Promise.all(fams.map((f) => document.fonts?.load(`16px "${f}"`).catch(() => {}))).then(() => document.fonts?.ready).then(() => { fontsOk = true }).catch(() => { fontsOk = true })
     const tick = (t) => {
       const p = Math.min(1, (t - t0) / 2200)
       setPct(Math.round((fontsOk || p < 0.8 ? p : 0.8) * 100))
@@ -66,6 +67,7 @@ export default function App() {
   useEffect(() => {
     if (phase === 'loading') return
     startSmoothScroll()
+    autoStart()
     const prog = gsap.to('.progress span', { scaleX: 1, ease: 'none', scrollTrigger: { start: 0, end: 'max', scrub: 0.2 } })
     return () => { prog.scrollTrigger?.kill(); prog.kill() }
   }, [phase])
@@ -73,14 +75,17 @@ export default function App() {
   useEffect(() => {
     if (phase === 'loading') return
     const a = ScrollTrigger.create({ trigger: '#prologue', start: 'top 60%', onEnter: () => setActive(null), onEnterBack: () => setActive(null) })
-    const b = ScrollTrigger.create({ trigger: '#finale', start: 'top 60%', onEnter: () => setActive('finale'), onLeaveBack: () => setActive(chapters.at(-1)?.id ?? null) })
+    const r2 = ScrollTrigger.create({ trigger: '#recetas', start: 'top 60%', onEnter: () => setActive('recetas'), onLeaveBack: () => setActive(chapters.at(-1)?.id ?? null) })
+    const b = ScrollTrigger.create({ trigger: '#finale', start: 'top 60%', onEnter: () => setActive('finale'), onLeaveBack: () => setActive('recetas') })
     const r = setTimeout(() => ScrollTrigger.refresh(), 600)
-    return () => { a.kill(); b.kill(); clearTimeout(r) }
+    const r3 = setTimeout(() => ScrollTrigger.refresh(), 2500), r4 = setTimeout(() => ScrollTrigger.refresh(), 6000)
+    const onLoad = () => ScrollTrigger.refresh(); window.addEventListener('load', onLoad)
+    return () => { a.kill(); b.kill(); r2.kill(); clearTimeout(r); clearTimeout(r3); clearTimeout(r4); window.removeEventListener('load', onLoad) }
   }, [phase, chapters.length])
 
   useEffect(() => { if (activeCh?.song) playFor(activeCh.song) }, [activeCh?.id, activeCh?.song])
 
-  const dataTheme = active === 'finale' ? 'petals' : activeCh?.theme || 'petals'
+  const dataTheme = active === 'finale' ? 'petals' : active === 'recetas' ? 'kitchen' : activeCh?.theme || 'petals'
   return (
     <div className="app" data-active={dataTheme}>
       {phase === 'loading' && <Loader to={story.site.to} done={() => setPhase('intro')} />}
@@ -100,7 +105,6 @@ export default function App() {
       ))}
       <Recipes />
       <Finale site={story.site} counts={story.counts} all={pool} />
-      {phase !== 'loading' && <Nav chapters={chapters} active={active} />}
       {phase !== 'loading' && <TopMenu story={story} activeId={active} songOf={(c) => c.song} />}
       <Config />
     </div>

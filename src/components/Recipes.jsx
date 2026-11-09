@@ -16,9 +16,9 @@ export default function Recipes() {
     <section className="recipes theme-kitchen" id="recetas" ref={ref} data-theme="kitchen">
       <Sticker name="chefhat" size={150} className="rc-hat" />
       <header>
-        <small>por si un día te toca cocinar lejos de casa</small>
+        <small>para lo que te queda de intercambio</small>
         <h2>10 recetas de menos de 30 minutos</h2>
-        <p>Fáciles, baratas y casi a prueba de errores. Para cuando tengas hambre, poco tiempo y nadie que te cocine (todavía). Cada una lleva a la receta completa.</p>
+        <p>Fáciles, baratas y casi imposibles de arruinar, para cuando tengas hambre, poco tiempo y mucha tarea, y quieras sentirte un poquito en casa. Cada una te lleva a la receta completa.</p>
       </header>
       <ol className="rc-grid">
         {RECIPES.map((r, i) => (

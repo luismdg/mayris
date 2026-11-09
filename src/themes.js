@@ -11,7 +11,7 @@ export const THEMES = {
   letter:    { label: 'Cartas a mano',             layout: 'paper',     fx: 'dust',     bg: '#f3e6cf', ink: '#3a2a1e', accent: '#c1121f' },
   arcade:    { label: 'Arcade · Roblox / Brainrot',layout: 'blocks',    fx: 'pixels',   bg: '#22094a', ink: '#ffffff', accent: '#ff2bd6' },
   flash:     { label: 'The Flash · velocidad',     layout: 'rail',      fx: 'speed',    bg: '#150404', ink: '#fff3c4', accent: '#ffd400' },
-  club:      { label: 'Club · cantar y bailar',    layout: 'strobe',    fx: 'lasers',   bg: '#07030f', ink: '#f4eaff', accent: '#ff2bd6' },
+  club:      { label: 'Escenario · cantar y bailar',    layout: 'strobe',    fx: 'lasers',   bg: '#07030f', ink: '#f4eaff', accent: '#ff2bd6' },
   terminal:  { label: 'Terminal · genio',          layout: 'bento',     fx: 'code',     bg: '#04100b', ink: '#c9ffe3', accent: '#39ff88' },
   minion:    { label: 'Minions · banana',          layout: 'porthole',  fx: 'bubbles',  bg: '#ffd90f', ink: '#16315e', accent: '#1e6bd6' },
   sunset:    { label: 'Atardecer · viaje',         layout: 'stack',     fx: 'embers',   bg: '#2a1233', ink: '#ffe9d6', accent: '#ff7a9c' },

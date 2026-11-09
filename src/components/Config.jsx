@@ -12,6 +12,7 @@ function SiteTab({ site }) {
   return (
     <div className="cfg-pane">
       <div className="cf-row">{t('to', 'Para (nombre)')}{t('from', 'De (tu nombre)')}</div>
+      {t('eyebrow', 'Texto pequeño de la portada')}
       {t('introLine', 'Frase de la portada')}
       {t('introHint', 'Pista bajo el título')}
       <div className="cf-row">{t('startDate', 'Primer recuerdo', { type: 'date' })}{t('anniversaryDate', 'Aniversario', { type: 'date' })}</div>
@@ -20,6 +21,7 @@ function SiteTab({ site }) {
       </Field>
       <Field label="Sus gustos (uno por línea, salen en el final)"><textarea rows={8} value={site.likes.join(String.fromCharCode(10))} onChange={(e) => setSite('likes', e.target.value.split(String.fromCharCode(10)))} /></Field>
       <Field label="Carta final"><textarea rows={12} value={site.letter} onChange={(e) => setSite('letter', e.target.value)} /></Field>
+      {t('finaleKicker', 'Frase sobre el título final')}
       {t('finaleTitle', 'Título final')}
     </div>
   )

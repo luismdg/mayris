@@ -21,7 +21,7 @@ const set = (p) => { state = { ...state, ...p }; subs.forEach((f) => f()) }
 export const useMusic = () => useSyncExternalStore((f) => (subs.add(f), () => subs.delete(f)), () => state)
 
 const VOL = 0.65
-let audio = null, yt = null, ytReady = false, pending = null, fadeT = null
+let audio = null, yt = null, ytReady = false, pending = 'lloviendo', fadeT = null, autoMuted = false, userPaused = false
 
 // which songs have a local file?
 Object.keys(SONGS).forEach((k) => {
@@ -80,7 +80,10 @@ async function start(key) {
     try { await audio.play(); set({ playing: true }); fade(VOL) } catch { set({ error: key }) }
   } else {
     await ensureYT()
-    curId = okIds(key)[0] || s.yt[0]; yt.loadVideoById(curId); yt.setVolume(0); state.muted ? yt.mute() : yt.unMute()
+    curId = okIds(key)[0] || s.yt[0]; yt.loadVideoById(curId); yt.setVolume(0)
+    const gesture = navigator.userActivation ? navigator.userActivation.hasBeenActive : true
+    autoMuted = !gesture
+    state.muted || autoMuted ? yt.mute() : yt.unMute()
     setTimeout(() => fade(VOL), 600)
   }
 }
@@ -94,6 +97,8 @@ export function playFor(key) {
 }
 export function toggle() {
   if (!state.armed) { arm(); return }
+  userPaused = state.playing
+  if (autoMuted) { autoMuted = false; if (ytReady && !state.muted) yt.unMute() }
   if (state.playing) { stopAll(); set({ playing: false }) }
   else if (state.key) { if (state.local[state.key] && audio) { audio.play(); fade(VOL) } else { yt?.playVideo(); setTimeout(() => fade(VOL), 200) } set({ playing: true }) }
   else if (pending) start(pending)
@@ -102,4 +107,21 @@ export function toggleMute() {
   const m = !state.muted; set({ muted: m })
   if (audio) audio.muted = m
   if (ytReady) m ? yt.mute() : yt.unMute()
+}
+
+// Starts by itself on the first scroll / touch / key. If the browser still blocks sound, it plays muted and unmutes on the first real click or tap.
+function retry() {
+  if (!state.armed) return
+  if (autoMuted && !state.muted) { autoMuted = false; try { yt?.unMute?.(); yt?.setVolume?.(Math.round(VOL * 100)) } catch {} }
+  if (!state.playing && !userPaused && state.key) {
+    if (state.local[state.key] && audio) audio.play().then(() => set({ playing: true })).catch(() => {})
+    else try { yt?.playVideo?.() } catch {}
+  }
+}
+let autoOn = false
+export function autoStart() {
+  if (autoOn) return; autoOn = true
+  const first = () => { arm(); ['wheel', 'touchstart', 'scroll', 'keydown'].forEach((e) => window.removeEventListener(e, first)) }
+  ;['wheel', 'touchstart', 'scroll', 'keydown'].forEach((e) => window.addEventListener(e, first, { passive: true }))
+  ;['pointerdown', 'keydown', 'touchend', 'click'].forEach((e) => window.addEventListener(e, () => { if (navigator.userActivation?.isActive !== false) retry() }, { passive: true }))
 }
