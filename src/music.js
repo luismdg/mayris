@@ -1,0 +1,105 @@
+import { useSyncExternalStore } from 'react'
+
+// yt ids verified against the official channel uploads. To use your own audio file instead, put it in public/music/<key>.mp3
+export const SONGS = {
+  lloviendo: { title: 'Lloviendo estrellas', artist: 'Cristian Castro', yt: ['B8rBl4pwN0E', 'QnNqUEDDS0A'], mood: 'para estar tranquilos' },
+  holdon: { title: "Hold On, We're Going Home", artist: 'Drake', yt: ['GxgqpCdOKak', 'Ni6izPw1xSU', 'QKYkZnxZ3ZA'], mood: 'el día que me dijiste que sí' },
+  rumores: { title: 'Rumores', artist: 'Joan Sebastian', yt: ['z0e2l--wCJA', 'FL7ktlvZnH8', '7dI65toVCVQ'], mood: 'para querernos' },
+  yellow: { title: 'Yellow', artist: 'Coldplay', yt: ['yKNxeF4KMsY', 'tdVAqxNLXiw', 'q7mlB-adMBc'], mood: 'para las cartas' },
+  nothin: { title: "Nothin' on You", artist: "B.o.B ft. Bruno Mars", yt: ['8PTDv_szmL0', 'u3lz7oSd6JE', 'Evv200wdenQ'], mood: 'para ir a toda velocidad' },
+  feeling: { title: 'What a Feeling', artist: 'Irene Cara', yt: ['ILWSp0m9G2U', 'A64KVUfo4ew', 'miax0Jpe5mA'], mood: 'para cantar y bailar' },
+  goosebumps: { title: 'goosebumps', artist: 'Travis Scott', yt: ['Dst9gZkq1a8', '_9XaXHD3680'], mood: 'para los conciertos' },
+}
+export const ytUrl = (ids) => `https://www.youtube.com/watch?v=${[].concat(ids)[0]}`
+const bad = new Set()
+const okIds = (key) => SONGS[key].yt.filter((id) => !bad.has(id))
+let curId = null
+
+let state = { armed: false, key: null, playing: false, muted: false, error: null, local: {} }
+const subs = new Set()
+const set = (p) => { state = { ...state, ...p }; subs.forEach((f) => f()) }
+export const useMusic = () => useSyncExternalStore((f) => (subs.add(f), () => subs.delete(f)), () => state)
+
+const VOL = 0.65
+let audio = null, yt = null, ytReady = false, pending = null, fadeT = null
+
+// which songs have a local file?
+Object.keys(SONGS).forEach((k) => {
+  fetch(`/music/${k}.mp3`, { method: 'HEAD' }).then((r) => { if (r.ok && (r.headers.get('content-type') || '').includes('audio')) set({ local: { ...state.local, [k]: true } }) }).catch(() => {})
+})
+
+function loadYT() {
+  if (window.YT?.Player) return Promise.resolve()
+  return new Promise((res) => {
+    const prev = window.onYouTubeIframeAPIReady
+    window.onYouTubeIframeAPIReady = () => { prev?.(); res() }
+    if (!document.getElementById('yt-api')) { const s = document.createElement('script'); s.id = 'yt-api'; s.src = 'https://www.youtube.com/iframe_api'; document.head.appendChild(s) }
+  })
+}
+let ytP = null
+function ensureYT() { return (ytP ||= buildYT()) }
+async function buildYT() {
+  await loadYT()
+  let host = document.getElementById('yt-host')
+  if (!host) { host = document.createElement('div'); host.id = 'yt-host'; host.style.cssText = 'position:fixed;left:-9999px;top:0;width:200px;height:200px;pointer-events:none;opacity:0'; document.body.appendChild(host); const inner = document.createElement('div'); inner.id = 'yt-inner'; host.appendChild(inner) }
+  await new Promise((res) => {
+    yt = new window.YT.Player('yt-inner', {
+      width: 200, height: 200, playerVars: { autoplay: 1, controls: 0, playsinline: 1, rel: 0, modestbranding: 1, enablejsapi: 1, origin: location.origin },
+      events: {
+        onReady: () => { ytReady = true; res() },
+        onStateChange: (e) => { if (e.data === 0) { yt.seekTo(0); yt.playVideo() } if (e.data === 1) set({ playing: true, error: null }) },
+        onError: () => {
+          bad.add(curId)
+          const nx = okIds(state.key)[0]
+          if (nx) { curId = nx; yt.loadVideoById(nx) } else set({ error: state.key, playing: false })
+        },
+      },
+    })
+  })
+}
+function fade(to, ms = 700, done) {
+  clearInterval(fadeT)
+  const get = () => (audio && !audio.paused ? audio.volume * 100 : ytReady && yt?.getVolume ? yt.getVolume() : 0)
+  const from = get(); const t0 = performance.now()
+  fadeT = setInterval(() => {
+    const k = Math.min(1, (performance.now() - t0) / ms); const v = from + (to * 100 - from) * k
+    if (audio) audio.volume = Math.max(0, Math.min(1, v / 100))
+    if (ytReady && yt?.setVolume) yt.setVolume(Math.round(v))
+    if (k >= 1) { clearInterval(fadeT); done?.() }
+  }, 40)
+}
+function stopAll() { try { audio?.pause() } catch {} try { yt?.pauseVideo?.() } catch {} }
+
+async function start(key) {
+  const s = SONGS[key]; if (!s) return
+  set({ key, error: null, playing: false })
+  stopAll()
+  if (state.local[key]) {
+    if (!audio) { audio = new Audio(); audio.loop = true }
+    audio.src = `/music/${key}.mp3`; audio.volume = 0; audio.muted = state.muted
+    try { await audio.play(); set({ playing: true }); fade(VOL) } catch { set({ error: key }) }
+  } else {
+    await ensureYT()
+    curId = okIds(key)[0] || s.yt[0]; yt.loadVideoById(curId); yt.setVolume(0); state.muted ? yt.mute() : yt.unMute()
+    setTimeout(() => fade(VOL), 600)
+  }
+}
+export function arm() { if (!state.armed) { set({ armed: true }); if (pending) start(pending) } }
+export function playFor(key) {
+  if (!key || !SONGS[key]) return
+  pending = key
+  if (!state.armed || state.key === key) return
+  const go = () => start(key)
+  if (state.playing) fade(0, 450, go); else go()
+}
+export function toggle() {
+  if (!state.armed) { arm(); return }
+  if (state.playing) { stopAll(); set({ playing: false }) }
+  else if (state.key) { if (state.local[state.key] && audio) { audio.play(); fade(VOL) } else { yt?.playVideo(); setTimeout(() => fade(VOL), 200) } set({ playing: true }) }
+  else if (pending) start(pending)
+}
+export function toggleMute() {
+  const m = !state.muted; set({ muted: m })
+  if (audio) audio.muted = m
+  if (ytReady) m ? yt.mute() : yt.unMute()
+}

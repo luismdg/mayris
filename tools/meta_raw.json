@@ -1,0 +1,2987 @@
+[
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/0e86f8c3-3079-4e75-a93e-a31073f86022.jpg",
+  "size": 133625,
+  "kind": "image",
+  "w": 960,
+  "h": 1280
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/134a4b23-9973-4e22-84d1-219cc1f04c12.jpg",
+  "size": 266893,
+  "kind": "image",
+  "w": 1600,
+  "h": 1200
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/1f813257-92b5-4a6e-86f5-ffbed5aa3a6d.jpg",
+  "size": 153813,
+  "kind": "image",
+  "w": 960,
+  "h": 1280
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/24d8cd75-eaf8-4e8d-b7bf-ef4bc6b7c8da.jpg",
+  "size": 360642,
+  "kind": "image",
+  "w": 1200,
+  "h": 1600
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/419A675E-F965-4C2A-98DF-7801805DE4AA.jpg",
+  "size": 145201,
+  "kind": "image",
+  "w": 1024,
+  "h": 768,
+  "gps": null,
+  "model": null
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/699C0209-AB9D-4D1B-BBB0-C3B9569D0902.JPEG",
+  "size": 609246,
+  "kind": "image",
+  "w": 1170,
+  "h": 2080,
+  "gps": null,
+  "model": null
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/88cfae7a-81c3-4a13-a3ca-4067dfc10daf.jpg",
+  "size": 44872,
+  "kind": "image",
+  "w": 558,
+  "h": 484
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/D6E71F83-7F07-4378-8EBA-8EC8BFA79003.jpg",
+  "size": 244756,
+  "kind": "image",
+  "w": 1415,
+  "h": 1768,
+  "gps": null,
+  "model": null
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/e295d13f-70e4-4e3a-88fc-3b736af3fd3b.jpg",
+  "size": 75701,
+  "kind": "image",
+  "w": 900,
+  "h": 1600
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/ee9527eb-6aa6-40bb-8e92-da93abf375fa.mp4",
+  "size": 265043,
+  "kind": "video",
+  "dur": 2.8,
+  "w": 480,
+  "h": 848,
+  "hasAudio": false
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6900.JPG",
+  "size": 809960,
+  "kind": "image",
+  "w": 2972,
+  "h": 1980,
+  "gps": null,
+  "model": null
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5939.MOV",
+  "size": 37823401,
+  "kind": "video",
+  "dur": 7.32,
+  "date": "2024-03-09T01:17:29-0600",
+  "w": 2160,
+  "h": 3840,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6051.JPG",
+  "size": 2438685,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-03-21T14:30:46",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6062.JPG",
+  "size": 1536379,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-03-21T14:36:05",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6063.JPG",
+  "size": 1498915,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-03-21T14:36:05",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/5A6C3CBB-1529-4A71-A155-9E480F0F773F.JPG",
+  "size": 1924968,
+  "kind": "image",
+  "w": 2062,
+  "h": 3664,
+  "date": "2024-05-28T14:58:38",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6813.JPG",
+  "size": 3317484,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-06-01T14:41:55",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6813.MOV",
+  "size": 4271300,
+  "kind": "video",
+  "dur": 2.17,
+  "date": "2024-06-01T14:41:55-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6816.MOV",
+  "size": 5589305,
+  "kind": "video",
+  "dur": 3.02,
+  "date": "2024-06-01T14:42:02-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6816.JPG",
+  "size": 3265781,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-06-01T14:42:03",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6878.MOV",
+  "size": 5610341,
+  "kind": "video",
+  "dur": 2.94,
+  "date": "2024-06-04T14:59:24-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6878.JPG",
+  "size": 3672099,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-06-04T14:59:25",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6880.JPG",
+  "size": 3431670,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-06-04T14:59:39",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6880.MOV",
+  "size": 3323520,
+  "kind": "video",
+  "dur": 1.71,
+  "date": "2024-06-04T14:59:39-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7527.JPG",
+  "size": 2196162,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-07-09T19:42:42",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7527.MOV",
+  "size": 3244805,
+  "kind": "video",
+  "dur": 1.89,
+  "date": "2024-07-09T19:42:42-0500",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8614.JPG",
+  "size": 229296,
+  "kind": "image",
+  "w": 738,
+  "h": 981,
+  "date": "2024-08-15T22:40:46",
+  "gps": null,
+  "model": null
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8635.JPG",
+  "size": 1646591,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-08-20T10:16:19",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8658.JPG",
+  "size": 2352334,
+  "kind": "image",
+  "w": 3944,
+  "h": 4842,
+  "date": "2024-08-22T10:09:57",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8702.JPG",
+  "size": 1557332,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-08-23T21:25:25",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8715.JPG",
+  "size": 2341832,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-08-26T09:52:09",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8715.MOV",
+  "size": 3176222,
+  "kind": "video",
+  "dur": 1.83,
+  "date": "2024-08-26T09:52:09-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8735.JPG",
+  "size": 2786083,
+  "kind": "image",
+  "w": 3628,
+  "h": 5402,
+  "date": "2024-08-27T12:29:33",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8739.JPG",
+  "size": 1184510,
+  "kind": "image",
+  "w": 3948,
+  "h": 2962,
+  "date": "2024-08-27T12:29:59",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8750.MOV",
+  "size": 110316590,
+  "kind": "video",
+  "dur": 19.46,
+  "date": "2024-08-28T12:43:07-0600",
+  "w": 3840,
+  "h": 2160,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8801.JPG",
+  "size": 1939568,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-09-02T14:02:50",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8801.MOV",
+  "size": 4644034,
+  "kind": "video",
+  "dur": 2.32,
+  "date": "2024-09-02T14:02:50-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8831.JPG",
+  "size": 1993035,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-09-07T17:36:32",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8831.MOV",
+  "size": 3215688,
+  "kind": "video",
+  "dur": 1.68,
+  "date": "2024-09-07T17:36:32-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/E727D649-095D-40B9-A278-427D89A6EC08.jpg",
+  "size": 1801916,
+  "kind": "image",
+  "w": 2062,
+  "h": 3664,
+  "date": "2024-09-07T19:38:22",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8837.JPG",
+  "size": 278311,
+  "kind": "image",
+  "w": 1055,
+  "h": 1170,
+  "date": "2024-09-07T23:32:56",
+  "gps": null,
+  "model": null
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/3FFBB1B4-1FA9-4596-AC09-D8A1F4E29D40.jpg",
+  "size": 1894509,
+  "kind": "image",
+  "w": 2062,
+  "h": 3664,
+  "date": "2024-09-12T17:43:29",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8906.JPG",
+  "size": 2504926,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-09-12T18:15:32",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8906.MOV",
+  "size": 3469250,
+  "kind": "video",
+  "dur": 1.93,
+  "date": "2024-09-12T18:15:32-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8961.MOV",
+  "size": 1572789,
+  "kind": "video",
+  "dur": 0.74,
+  "date": "2024-09-17T09:19:17-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8961.JPG",
+  "size": 3595015,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-09-17T09:19:18",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8962.JPG",
+  "size": 2694776,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-09-17T09:19:20",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8962.MOV",
+  "size": 3545272,
+  "kind": "video",
+  "dur": 1.8,
+  "date": "2024-09-17T09:19:20-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8990.JPG",
+  "size": 4287400,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-09-19T10:08:51",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8990.MOV",
+  "size": 2798126,
+  "kind": "video",
+  "dur": 1.36,
+  "date": "2024-09-19T10:08:51-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9041.MOV",
+  "size": 16724078,
+  "kind": "video",
+  "dur": 6.33,
+  "date": "2024-09-20T12:44:11-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9117.MOV",
+  "size": 47057203,
+  "kind": "video",
+  "dur": 18.9,
+  "date": "2024-09-21T17:54:39-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9120.JPG",
+  "size": 1451076,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-09-21T20:06:38",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9124.JPG",
+  "size": 2244749,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-09-21T20:12:37",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9142.MOV",
+  "size": 5388739,
+  "kind": "video",
+  "dur": 2.87,
+  "date": "2024-09-21T22:00:35-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9142.JPG",
+  "size": 1964688,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-09-21T22:00:36",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/E1487969-26FA-426E-9AEA-62D2BA5FE635.mov",
+  "size": 20657772,
+  "kind": "video",
+  "dur": 13.5,
+  "date": "2024-09-23T00:41:43.000000Z",
+  "w": 1080,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9403.MOV",
+  "size": 41958062,
+  "kind": "video",
+  "dur": 7.43,
+  "date": "2024-09-25T13:18:13-0600",
+  "w": 2160,
+  "h": 3840,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9470.JPG",
+  "size": 4069773,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-09-30T15:14:01",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9470.MOV",
+  "size": 1190907,
+  "kind": "video",
+  "dur": 0.56,
+  "date": "2024-09-30T15:14:01-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9512.MOV",
+  "size": 4547186,
+  "kind": "video",
+  "dur": 2.21,
+  "date": "2024-10-04T14:22:26-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9512.JPG",
+  "size": 1907436,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-10-04T14:22:27",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9513.MOV",
+  "size": 1979847,
+  "kind": "video",
+  "dur": 1.08,
+  "date": "2024-10-04T14:23:30-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9513.JPG",
+  "size": 2206255,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-10-04T14:23:31",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9524.JPG",
+  "size": 1867679,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-10-05T22:46:28",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9524.MOV",
+  "size": 3341784,
+  "kind": "video",
+  "dur": 1.99,
+  "date": "2024-10-05T22:46:28-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9525.MOV",
+  "size": 395966289,
+  "kind": "video",
+  "dur": 69.8,
+  "date": "2024-10-05T22:53:23-0600",
+  "w": 3840,
+  "h": 2160,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9533.MOV",
+  "size": 4192947,
+  "kind": "video",
+  "dur": 1.72,
+  "date": "2024-10-08T11:27:42-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9533.JPG",
+  "size": 1683366,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-10-08T11:27:43",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9536.MOV",
+  "size": 3858668,
+  "kind": "video",
+  "dur": 2.07,
+  "date": "2024-10-08T11:27:49-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9536.JPG",
+  "size": 2898505,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-10-08T11:27:50",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9556.JPG",
+  "size": 1404427,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-10-09T12:34:25",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9556.MOV",
+  "size": 3903867,
+  "kind": "video",
+  "dur": 2.13,
+  "date": "2024-10-09T12:34:25-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9567.MOV",
+  "size": 5389969,
+  "kind": "video",
+  "dur": 2.92,
+  "date": "2024-10-10T11:54:29-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9567.JPG",
+  "size": 2965494,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-10-10T11:54:30",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9582.MOV",
+  "size": 15911904,
+  "kind": "video",
+  "dur": 6.13,
+  "date": "2024-10-11T10:25:46-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9586.MOV",
+  "size": 3020977,
+  "kind": "video",
+  "dur": 1.61,
+  "date": "2024-10-11T14:30:32-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9586.JPG",
+  "size": 2787334,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-10-11T14:30:33",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9621.JPG",
+  "size": 1957667,
+  "kind": "image",
+  "w": 3088,
+  "h": 2316,
+  "date": "2024-10-16T16:13:25",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9621.MOV",
+  "size": 1237153,
+  "kind": "video",
+  "dur": 0.69,
+  "date": "2024-10-16T16:13:25-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9746.JPG",
+  "size": 3815278,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-10-25T09:28:29",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9746.MOV",
+  "size": 4434959,
+  "kind": "video",
+  "dur": 2.2,
+  "date": "2024-10-25T09:28:29-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9773.MOV",
+  "size": 5651933,
+  "kind": "video",
+  "dur": 3.04,
+  "date": "2024-10-26T10:02:20-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9773.JPG",
+  "size": 3072856,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-10-26T10:02:21",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9789.JPG",
+  "size": 2565542,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-10-28T16:48:44",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9789.MOV",
+  "size": 4283499,
+  "kind": "video",
+  "dur": 2.27,
+  "date": "2024-10-28T16:48:44-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9863.MOV",
+  "size": 15379154,
+  "kind": "video",
+  "dur": 6.07,
+  "date": "2024-11-05T17:16:56-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9895.JPEG",
+  "size": 1415536,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-11-09T20:12:02",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9895.MOV",
+  "size": 4076858,
+  "kind": "video",
+  "dur": 2.27,
+  "date": "2024-11-09T20:12:02-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9899.JPG",
+  "size": 1653907,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-11-09T20:22:42",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9899.MOV",
+  "size": 5504984,
+  "kind": "video",
+  "dur": 2.87,
+  "date": "2024-11-09T20:22:42-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9902.JPG",
+  "size": 2136955,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-11-09T20:23:06",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9902.MOV",
+  "size": 5524991,
+  "kind": "video",
+  "dur": 2.88,
+  "date": "2024-11-09T20:23:06-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9907.JPG",
+  "size": 2962965,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-11-09T20:23:43",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9907.MOV",
+  "size": 4026746,
+  "kind": "video",
+  "dur": 2.1,
+  "date": "2024-11-09T20:23:43-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9913.MOV",
+  "size": 35559349,
+  "kind": "video",
+  "dur": 14.87,
+  "date": "2024-11-09T20:34:43-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9923.JPG",
+  "size": 2675055,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-11-09T20:51:16",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9923.MOV",
+  "size": 6079319,
+  "kind": "video",
+  "dur": 3.1,
+  "date": "2024-11-09T20:51:16-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9975.MOV",
+  "size": 3558886,
+  "kind": "video",
+  "dur": 1.93,
+  "date": "2024-11-19T09:39:31-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9975.JPG",
+  "size": 1989895,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-11-19T09:39:32",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9976.JPG",
+  "size": 1789753,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2024-11-19T09:39:32",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9976.MOV",
+  "size": 4738725,
+  "kind": "video",
+  "dur": 2.4,
+  "date": "2024-11-19T09:39:32-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9986.JPG",
+  "size": 1844393,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-11-20T19:26:34",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9986.MOV",
+  "size": 6118235,
+  "kind": "video",
+  "dur": 3.13,
+  "date": "2024-11-20T19:26:34-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9993.JPG",
+  "size": 2637717,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-11-20T19:27:05",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9993.MOV",
+  "size": 4313102,
+  "kind": "video",
+  "dur": 2.33,
+  "date": "2024-11-20T19:27:05-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9999.JPG",
+  "size": 4062656,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2024-11-20T20:26:21",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9999.MOV",
+  "size": 2387878,
+  "kind": "video",
+  "dur": 1.33,
+  "date": "2024-11-20T20:26:21-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_0152.JPG",
+  "size": 3764771,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-12-02T11:12:01",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_0152.MOV",
+  "size": 4281389,
+  "kind": "video",
+  "dur": 2.13,
+  "date": "2024-12-02T11:12:01-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_0160.JPEG",
+  "size": 2103771,
+  "kind": "image",
+  "w": 2066,
+  "h": 3672,
+  "date": "2024-12-02T11:12:40",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1191.JPG",
+  "size": 3036311,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-12-21T13:08:16",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1191.MOV",
+  "size": 4070580,
+  "kind": "video",
+  "dur": 2.1,
+  "date": "2024-12-21T13:08:16-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1238.MOV",
+  "size": 5018496,
+  "kind": "video",
+  "dur": 2.6,
+  "date": "2024-12-27T15:37:02-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1238.JPG",
+  "size": 3134174,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2024-12-27T15:37:03",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1281.JPG",
+  "size": 2106004,
+  "kind": "image",
+  "w": 2962,
+  "h": 3948,
+  "date": "2024-12-27T16:42:21",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1288.JPG",
+  "size": 2582382,
+  "kind": "image",
+  "w": 4184,
+  "h": 3820,
+  "date": "2024-12-27T16:44:57",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1293.MOV",
+  "size": 75417632,
+  "kind": "video",
+  "dur": 29.2,
+  "date": "2024-12-27T17:23:23-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1951.JPEG",
+  "size": 1569947,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-01-22T14:49:04",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1953.MOV",
+  "size": 16173727,
+  "kind": "video",
+  "dur": 11.27,
+  "date": "2025-01-22T14:49:11-0600",
+  "w": 1080,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1961.JPEG",
+  "size": 2769866,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-01-22T14:56:31",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_2659.JPG",
+  "size": 2082446,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-02-07T18:08:20",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_2659.MOV",
+  "size": 3019056,
+  "kind": "video",
+  "dur": 1.42,
+  "date": "2025-02-07T18:08:20-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/93F83455-7F8B-4C98-B738-FA4969391F56.jpg",
+  "size": 1258564,
+  "kind": "image",
+  "w": 2160,
+  "h": 3840,
+  "date": "2025-02-11T16:34:05",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_2728.JPG",
+  "size": 1643273,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2025-02-12T15:09:25",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_2728.MOV",
+  "size": 2555366,
+  "kind": "video",
+  "dur": 1.41,
+  "date": "2025-02-12T15:09:25-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/59B7B795-6869-44ED-A44F-294579600F43.jpg",
+  "size": 1896197,
+  "kind": "image",
+  "w": 2160,
+  "h": 3840,
+  "date": "2025-02-14T13:37:20",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/247C7E9D-0E9A-476A-ABD2-893789046EA4.jpg",
+  "size": 1223517,
+  "kind": "image",
+  "w": 3840,
+  "h": 2160,
+  "date": "2025-02-14T13:38:01",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_2926.JPG",
+  "size": 3893359,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-02-24T18:26:31",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_2926.MOV",
+  "size": 1607110,
+  "kind": "video",
+  "dur": 0.8,
+  "date": "2025-02-24T18:26:31-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_2960.JPG",
+  "size": 1583034,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2025-02-27T18:54:39",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/9805368E-27C7-4157-9D2B-5B23371CB774.jpg",
+  "size": 1182667,
+  "kind": "image",
+  "w": 3840,
+  "h": 2160,
+  "date": "2025-02-27T20:20:44",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3085.JPG",
+  "size": 1969687,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2025-03-11T19:21:50",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3085.MOV",
+  "size": 6195171,
+  "kind": "video",
+  "dur": 2.67,
+  "date": "2025-03-11T19:21:50-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/2E5453C8-469A-4A31-B257-DD67D9585BA4.JPEG",
+  "size": 637038,
+  "kind": "image",
+  "w": 1170,
+  "h": 2080,
+  "date": "2025-03-11T19:22:02",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3183.MOV",
+  "size": 32636341,
+  "kind": "video",
+  "dur": 13.33,
+  "date": "2025-03-21T15:59:17-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3445.JPG",
+  "size": 2878488,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-03-31T12:34:53",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3445.MOV",
+  "size": 2887308,
+  "kind": "video",
+  "dur": 1.47,
+  "date": "2025-03-31T12:34:53-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3451.JPG",
+  "size": 1950624,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-03-31T16:57:02",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3485.MOV",
+  "size": 4007337,
+  "kind": "video",
+  "dur": 1.37,
+  "date": "2025-04-05T20:47:24-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3485.JPG",
+  "size": 2094405,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-04-05T20:47:25",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3506-1.JPEG",
+  "size": 1277549,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-04-10T15:50:36",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3506.JPEG",
+  "size": 3141827,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-04-10T15:50:36",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3506.MOV",
+  "size": 3759670,
+  "kind": "video",
+  "dur": 2.4,
+  "date": "2025-04-10T15:50:36-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3512.MOV",
+  "size": 3529633,
+  "kind": "video",
+  "dur": 1.82,
+  "date": "2025-04-10T18:32:09-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_3512.JPG",
+  "size": 2940691,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-04-10T18:32:10",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4250.JPG",
+  "size": 3158186,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-04-22T16:05:50",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4400.JPG",
+  "size": 1710762,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2025-05-04T20:12:20",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4405.JPG",
+  "size": 3030246,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-05-04T22:43:12",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4446.JPG",
+  "size": 4007400,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-05-07T15:18:27",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4451.JPG",
+  "size": 3377194,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-05-07T15:18:36",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4458.JPG",
+  "size": 2590414,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2025-05-07T15:19:05",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4493.JPG",
+  "size": 2647899,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-05-09T13:12:01",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4495.MOV",
+  "size": 362539503,
+  "kind": "video",
+  "dur": 64.1,
+  "date": "2025-05-09T13:12:10-0600",
+  "w": 3840,
+  "h": 2160,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4682.JPG",
+  "size": 2484524,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-05-28T14:50:07",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4683.JPG",
+  "size": 1877725,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-05-28T14:50:21",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4728.JPG",
+  "size": 3300664,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-05-31T20:31:53",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4736.JPG",
+  "size": 2552689,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-05-31T20:34:17",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4827.MOV",
+  "size": 5941101,
+  "kind": "video",
+  "dur": 3.02,
+  "date": "2025-06-09T17:47:26-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4827.JPG",
+  "size": 2506490,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-06-09T17:47:27",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4837.MOV",
+  "size": 32296257,
+  "kind": "video",
+  "dur": 12.43,
+  "date": "2025-06-09T19:01:59-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4834.JPG",
+  "size": 1893083,
+  "kind": "image",
+  "w": 2750,
+  "h": 3666,
+  "date": "2025-06-09T19:02:10",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4894.JPG",
+  "size": 2439776,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-06-17T17:09:05",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4894.MOV",
+  "size": 3955148,
+  "kind": "video",
+  "dur": 2.11,
+  "date": "2025-06-17T17:09:05-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4920.JPEG",
+  "size": 2190418,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-06-19T16:33:59",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4930.JPG",
+  "size": 2617987,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-06-20T18:09:09",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4930.MOV",
+  "size": 3313284,
+  "kind": "video",
+  "dur": 1.44,
+  "date": "2025-06-20T18:09:09-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4934.MOV",
+  "size": 5086541,
+  "kind": "video",
+  "dur": 2.28,
+  "date": "2025-06-20T18:12:12-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4934.JPG",
+  "size": 2014505,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-06-20T18:12:13",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4970.MOV",
+  "size": 4754660,
+  "kind": "video",
+  "dur": 2.54,
+  "date": "2025-06-25T16:43:22-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_4970.JPG",
+  "size": 2780933,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-06-25T16:43:23",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5343.MOV",
+  "size": 38613267,
+  "kind": "video",
+  "dur": 22.75,
+  "date": "2025-07-08T10:24:48-0600",
+  "w": 1920,
+  "h": 1080,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5609-1.JPG",
+  "size": 3647209,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-07-16T20:21:41",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5609.JPG",
+  "size": 1527299,
+  "kind": "image",
+  "w": 1449,
+  "h": 2784,
+  "date": "2025-07-16T20:21:41",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5614.JPG",
+  "size": 1561144,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-07-17T20:46:31",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5615.MOV",
+  "size": 30513069,
+  "kind": "video",
+  "dur": 12.0,
+  "date": "2025-07-17T20:48:01-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5736.JPG",
+  "size": 1504819,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2025-07-24T19:41:04",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5736.MOV",
+  "size": 3128173,
+  "kind": "video",
+  "dur": 1.31,
+  "date": "2025-07-24T19:41:04-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/7285195A-40D6-45C6-99A1-484EC6408668.jpg",
+  "size": 2042470,
+  "kind": "image",
+  "w": 3840,
+  "h": 2160,
+  "date": "2025-07-25T12:45:30",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/2A9AB6A6-1381-4FED-8CA8-A65D35FC4C13.MP4",
+  "size": 15336199,
+  "kind": "video",
+  "dur": 35.49,
+  "date": "2025-07-27T05:32:07.000000Z",
+  "w": 720,
+  "h": 1280,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5835.MOV",
+  "size": 22965653,
+  "kind": "video",
+  "dur": 8.84,
+  "date": "2025-08-08T18:21:38-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5858.MOV",
+  "size": 13643692,
+  "kind": "video",
+  "dur": 5.27,
+  "date": "2025-08-08T19:13:46-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5965.JPG",
+  "size": 1979476,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2025-08-21T13:30:14",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_5965.MOV",
+  "size": 3808264,
+  "kind": "video",
+  "dur": 1.83,
+  "date": "2025-08-21T13:30:14-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6074.PNG",
+  "size": 4174956,
+  "kind": "image",
+  "w": 1170,
+  "h": 2532,
+  "date": "2025-08-29T20:34:08",
+  "gps": null,
+  "model": null
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6136.MOV",
+  "size": 79177812,
+  "kind": "video",
+  "dur": 30.7,
+  "date": "2025-09-07T16:15:22-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6137.JPG",
+  "size": 3231789,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-09-07T16:16:36",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6137.MOV",
+  "size": 2336687,
+  "kind": "video",
+  "dur": 1.21,
+  "date": "2025-09-07T16:16:36-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6141.JPG",
+  "size": 2471657,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-09-07T16:17:09",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6141.MOV",
+  "size": 2698312,
+  "kind": "video",
+  "dur": 1.42,
+  "date": "2025-09-07T16:17:09-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6199.MOV",
+  "size": 2869522427,
+  "kind": "video",
+  "dur": 1115.59,
+  "date": "2025-09-12T18:49:07-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6214.JPG",
+  "size": 2238655,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-09-12T22:56:12",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6214.MOV",
+  "size": 5022288,
+  "kind": "video",
+  "dur": 2.27,
+  "date": "2025-09-12T22:56:12-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6216.MOV",
+  "size": 24844315,
+  "kind": "video",
+  "dur": 9.51,
+  "date": "2025-09-12T23:21:15-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6259.MOV",
+  "size": 3988710,
+  "kind": "video",
+  "dur": 1.94,
+  "date": "2025-09-15T14:41:25-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6259.JPG",
+  "size": 2842783,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-09-15T14:41:26",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6282.JPEG",
+  "size": 2295324,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-09-16T20:09:56",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6303.JPG",
+  "size": 1862519,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2025-09-16T20:10:46",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6303.MOV",
+  "size": 6324725,
+  "kind": "video",
+  "dur": 3.09,
+  "date": "2025-09-16T20:10:46-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6558.JPG",
+  "size": 856020,
+  "kind": "image",
+  "w": 4899,
+  "h": 3266,
+  "date": "2025-10-03T18:21:49",
+  "gps": null,
+  "model": "ILCE-7M4"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6459.MOV",
+  "size": 4847736,
+  "kind": "video",
+  "dur": 2.53,
+  "date": "2025-10-04T10:46:47-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6459.JPG",
+  "size": 3251140,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-10-04T10:46:48",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/277DAFF0-8039-4901-8198-212FF0D54D22.jpg",
+  "size": 1368630,
+  "kind": "image",
+  "w": 2062,
+  "h": 3664,
+  "date": "2025-10-04T11:45:04",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6660.JPG",
+  "size": 2595187,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-10-24T09:05:26",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6660.MOV",
+  "size": 2056504,
+  "kind": "video",
+  "dur": 1.05,
+  "date": "2025-10-24T09:05:26-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6665.JPG",
+  "size": 1956006,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2025-10-24T09:44:19",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6665.MOV",
+  "size": 1202340,
+  "kind": "video",
+  "dur": 0.63,
+  "date": "2025-10-24T09:44:19-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1391.MOV",
+  "size": 1191906,
+  "kind": "video",
+  "dur": 2.08,
+  "date": "2025-10-24T19:23:09-0600",
+  "loc": "+25.6507-100.2871+538.331/",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1391.JPEG",
+  "size": 677437,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-10-24T19:23:10",
+  "gps": [
+   25.65073,
+   -100.28706
+  ],
+  "model": "iPhone 13"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6690.MOV",
+  "size": 5559582,
+  "kind": "video",
+  "dur": 2.97,
+  "date": "2025-10-24T22:57:50-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6690.JPG",
+  "size": 2603404,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-10-24T22:57:51",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/3A2E62A1-3F1C-4303-B8E5-F5F9D38B10CE.jpg",
+  "size": 1851084,
+  "kind": "image",
+  "w": 2160,
+  "h": 3840,
+  "date": "2025-10-25T09:15:00",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6729.JPG",
+  "size": 3578648,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-10-25T18:07:41",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6729.MOV",
+  "size": 4148716,
+  "kind": "video",
+  "dur": 2.12,
+  "date": "2025-10-25T18:07:41-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6738.MOV",
+  "size": 5305056,
+  "kind": "video",
+  "dur": 2.82,
+  "date": "2025-10-25T18:08:01-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6738.JPG",
+  "size": 3655607,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-10-25T18:08:02",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6795.MOV",
+  "size": 4545441,
+  "kind": "video",
+  "dur": 2.27,
+  "date": "2025-10-26T13:49:37-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6795.JPG",
+  "size": 3379015,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-10-26T13:49:38",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6799.JPG",
+  "size": 1966300,
+  "kind": "image",
+  "w": 3024,
+  "h": 4032,
+  "date": "2025-10-26T13:49:52",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6799.MOV",
+  "size": 4674157,
+  "kind": "video",
+  "dur": 1.68,
+  "date": "2025-10-26T13:49:52-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1501.MOV",
+  "size": 642581,
+  "kind": "video",
+  "dur": 1.03,
+  "date": "2025-10-26T18:04:07-0600",
+  "loc": "+25.7778-100.1120+382.804/",
+  "w": 960,
+  "h": 720,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_1501.JPEG",
+  "size": 684283,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2025-10-26T18:04:08",
+  "gps": [
+   25.77781,
+   -100.11195
+  ],
+  "model": "iPhone 13"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6860.MOV",
+  "size": 5597869,
+  "kind": "video",
+  "dur": 2.96,
+  "date": "2025-10-29T12:40:09-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6860.JPG",
+  "size": 2134096,
+  "kind": "image",
+  "w": 2316,
+  "h": 3088,
+  "date": "2025-10-29T12:40:10",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6899.MOV",
+  "size": 4627927,
+  "kind": "video",
+  "dur": 2.44,
+  "date": "2025-11-01T21:46:31-0600",
+  "w": 1920,
+  "h": 1440,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6899.JPG",
+  "size": 2750195,
+  "kind": "image",
+  "w": 4032,
+  "h": 3024,
+  "date": "2025-11-01T21:46:32",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6990.MOV",
+  "size": 1368014,
+  "kind": "video",
+  "dur": 2.22,
+  "date": "2025-11-10T12:42:40-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_6990.JPEG",
+  "size": 693017,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-11-10T12:42:41",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7015.MOV",
+  "size": 1249105,
+  "kind": "video",
+  "dur": 2.04,
+  "date": "2025-11-12T18:18:05-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7015.JPEG",
+  "size": 677314,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-11-12T18:18:06",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7021.MP4",
+  "size": 9982586,
+  "kind": "video",
+  "dur": 17.57,
+  "date": "2025-11-13T04:29:02.000000Z",
+  "w": 960,
+  "h": 1280,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7119.MOV",
+  "size": 1267528,
+  "kind": "video",
+  "dur": 2.46,
+  "date": "2025-11-21T20:40:33-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7119.JPEG",
+  "size": 559316,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-11-21T20:40:34",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7128.MP4",
+  "size": 14017805,
+  "kind": "video",
+  "dur": 24.57,
+  "date": "2025-11-22T16:28:38.000000Z",
+  "w": 1280,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7258.JPEG",
+  "size": 866932,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2025-12-09T13:55:19",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7258.MOV",
+  "size": 1700051,
+  "kind": "video",
+  "dur": 2.91,
+  "date": "2025-12-09T13:55:19-0600",
+  "w": 960,
+  "h": 720,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7284.JPG",
+  "size": 1883577,
+  "kind": "image",
+  "w": 2750,
+  "h": 3666,
+  "date": "2025-12-09T17:28:52",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7316.MOV",
+  "size": 1859471,
+  "kind": "video",
+  "dur": 3.01,
+  "date": "2025-12-09T17:30:05-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7316.JPEG",
+  "size": 735207,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-12-09T17:30:06",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7488.JPEG",
+  "size": 1094478,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-12-20T13:59:06",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7488.MOV",
+  "size": 1683393,
+  "kind": "video",
+  "dur": 2.78,
+  "date": "2025-12-20T13:59:06-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7499.MOV",
+  "size": 945327,
+  "kind": "video",
+  "dur": 1.3,
+  "date": "2025-12-20T14:48:52-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7499.JPEG",
+  "size": 686775,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-12-20T14:48:53",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7613.JPEG",
+  "size": 1304424,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-12-20T16:41:05",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7613.MOV",
+  "size": 1218471,
+  "kind": "video",
+  "dur": 1.82,
+  "date": "2025-12-20T16:41:05-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7784.MOV",
+  "size": 1554389,
+  "kind": "video",
+  "dur": 2.58,
+  "date": "2025-12-30T13:25:11-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7784.JPEG",
+  "size": 1132836,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-12-30T13:25:12",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7794.JPEG",
+  "size": 777074,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-12-30T20:53:03",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7794.MOV",
+  "size": 1514728,
+  "kind": "video",
+  "dur": 2.37,
+  "date": "2025-12-30T20:53:03-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7796.JPEG",
+  "size": 833517,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2025-12-30T20:53:08",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_7796.MOV",
+  "size": 1268845,
+  "kind": "video",
+  "dur": 2.14,
+  "date": "2025-12-30T20:53:08-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8284.MP4",
+  "size": 19112560,
+  "kind": "video",
+  "dur": 33.74,
+  "date": "2026-01-15T03:51:23.000000Z",
+  "w": 960,
+  "h": 1280,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8329.JPEG",
+  "size": 874607,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2026-01-16T23:05:49",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8329.MOV",
+  "size": 1048223,
+  "kind": "video",
+  "dur": 1.84,
+  "date": "2026-01-16T23:05:49-0600",
+  "w": 960,
+  "h": 720,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8445.MOV",
+  "size": 1193026,
+  "kind": "video",
+  "dur": 2.15,
+  "date": "2026-01-24T23:42:23-0600",
+  "w": 960,
+  "h": 720,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8445.JPEG",
+  "size": 377106,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2026-01-24T23:42:24",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/02092026_201554.MP4",
+  "size": 18989650,
+  "kind": "video",
+  "dur": 49.63,
+  "date": "2026-02-10T02:44:46.000000Z",
+  "w": 720,
+  "h": 1280,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8593.JPEG",
+  "size": 962430,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-02-13T19:37:35",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8593.MOV",
+  "size": 612042,
+  "kind": "video",
+  "dur": 1.01,
+  "date": "2026-02-13T19:37:35-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8594.MOV",
+  "size": 1300170,
+  "kind": "video",
+  "dur": 2.2,
+  "date": "2026-02-13T19:37:38-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8594.JPEG",
+  "size": 1015147,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-02-13T19:37:39",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8597.MP4",
+  "size": 5616331,
+  "kind": "video",
+  "dur": 12.27,
+  "date": "2026-02-14T04:42:07.000000Z",
+  "w": 960,
+  "h": 1280,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8640.JPG",
+  "size": 1645368,
+  "kind": "image",
+  "w": 3666,
+  "h": 2750,
+  "date": "2026-02-23T18:50:36",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8667.JPEG",
+  "size": 914816,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2026-02-23T20:02:15",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8903.MOV",
+  "size": 1194181,
+  "kind": "video",
+  "dur": 2.2,
+  "date": "2026-03-26T16:59:57-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_8903.JPEG",
+  "size": 815422,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-03-26T16:59:58",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9051.JPEG",
+  "size": 426876,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2026-04-08T13:16:09",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9064.JPEG",
+  "size": 737557,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-04-08T14:28:49",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9064.MOV",
+  "size": 1767232,
+  "kind": "video",
+  "dur": 2.87,
+  "date": "2026-04-08T14:28:49-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9074.JPEG",
+  "size": 1002219,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-04-08T14:32:04",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9074.MOV",
+  "size": 1293804,
+  "kind": "video",
+  "dur": 2.18,
+  "date": "2026-04-08T14:32:04-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9075.JPEG",
+  "size": 910562,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2026-04-08T14:32:07",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9075.MOV",
+  "size": 848164,
+  "kind": "video",
+  "dur": 1.33,
+  "date": "2026-04-08T14:32:07-0600",
+  "w": 960,
+  "h": 720,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9102.JPEG",
+  "size": 636566,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-04-08T14:48:35",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9102.MOV",
+  "size": 1403469,
+  "kind": "video",
+  "dur": 2.5,
+  "date": "2026-04-08T14:48:35-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9012.MP4",
+  "size": 19373348,
+  "kind": "video",
+  "dur": 41.94,
+  "date": "2026-04-09T01:33:24.000000Z",
+  "w": 720,
+  "h": 1280,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9241.JPEG",
+  "size": 751066,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-04-20T18:50:24",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9241.MOV",
+  "size": 1059157,
+  "kind": "video",
+  "dur": 1.73,
+  "date": "2026-04-20T18:50:24-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9252.JPEG",
+  "size": 744627,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2026-04-20T19:34:00",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9252.MOV",
+  "size": 1760998,
+  "kind": "video",
+  "dur": 2.97,
+  "date": "2026-04-20T19:34:00-0600",
+  "w": 960,
+  "h": 720,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9265.MP4",
+  "size": 7526346,
+  "kind": "video",
+  "dur": 14.01,
+  "date": "2026-04-21T15:31:24.000000Z",
+  "w": 960,
+  "h": 1280,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9481.MOV",
+  "size": 1747362,
+  "kind": "video",
+  "dur": 2.97,
+  "date": "2026-05-15T19:57:09-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9481.JPEG",
+  "size": 759315,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-05-15T19:57:10",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9502.JPEG",
+  "size": 668877,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-05-15T20:57:20",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9502.MOV",
+  "size": 1469247,
+  "kind": "video",
+  "dur": 2.55,
+  "date": "2026-05-15T20:57:20-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9558.MOV",
+  "size": 1140012,
+  "kind": "video",
+  "dur": 2.11,
+  "date": "2026-05-24T10:33:51-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9558.JPEG",
+  "size": 966686,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-05-24T10:33:52",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9568.JPEG",
+  "size": 958009,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2026-05-24T14:53:16",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9568.MOV",
+  "size": 1203504,
+  "kind": "video",
+  "dur": 2.27,
+  "date": "2026-05-24T14:53:16-0600",
+  "w": 960,
+  "h": 720,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9570.MOV",
+  "size": 1785875,
+  "kind": "video",
+  "dur": 2.94,
+  "date": "2026-05-24T15:11:32-0600",
+  "w": 960,
+  "h": 720,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9570.JPEG",
+  "size": 1176173,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2026-05-24T15:11:33",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9593.JPEG",
+  "size": 867671,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-05-30T15:32:30",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9593.MOV",
+  "size": 1301677,
+  "kind": "video",
+  "dur": 1.08,
+  "date": "2026-05-30T15:32:30-0600",
+  "w": 1440,
+  "h": 1920,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9594.JPEG",
+  "size": 851547,
+  "kind": "image",
+  "w": 2048,
+  "h": 1536,
+  "date": "2026-05-30T15:40:46",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9594.MOV",
+  "size": 1240236,
+  "kind": "video",
+  "dur": 2.23,
+  "date": "2026-05-30T15:40:46-0600",
+  "w": 960,
+  "h": 720,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/20546c85-cf7f-4ed9-8422-5412ac01a843.MOV",
+  "size": 13658204,
+  "kind": "video",
+  "dur": 13.46,
+  "date": "2026-06-05T22:16:16.000000Z",
+  "w": 2046,
+  "h": 1080,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9635.MP4",
+  "size": 4029699,
+  "kind": "video",
+  "dur": 7.1,
+  "date": "2026-06-30T17:19:00.000000Z",
+  "w": 960,
+  "h": 1280,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_9615.MP4",
+  "size": 4506113,
+  "kind": "video",
+  "dur": 8.1,
+  "date": "2026-06-30T17:19:05.000000Z",
+  "w": 960,
+  "h": 1280,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_0039.MOV",
+  "size": 628373,
+  "kind": "video",
+  "dur": 0.97,
+  "date": "2026-08-17T14:46:18-0600",
+  "w": 720,
+  "h": 960,
+  "hasAudio": true
+ },
+ {
+  "file": "9 Mar 2024 \u2013 17 Aug 2026/IMG_0039.JPEG",
+  "size": 945825,
+  "kind": "image",
+  "w": 1536,
+  "h": 2048,
+  "date": "2026-08-17T14:46:19",
+  "gps": null,
+  "model": "iPhone 13 Pro"
+ }
+]
