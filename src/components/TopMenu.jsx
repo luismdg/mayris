@@ -70,7 +70,7 @@ export default function TopMenu({ story, activeId, songOf }) {
           <p className="menu-eyebrow">navegar</p>
           <div className="menu-quick">
             <button onClick={() => go('#intro')}>Inicio</button>
-            <button onClick={() => go('#prologue')}>Cómo empezó</button>
+            <button onClick={() => go('#prologue')}>Introducción</button>
             <button onClick={() => go('#recetas')}>Recetas</button>
             <button onClick={() => go('#finale')}>La carta final</button>
             {canEdit && <button className="edit" onClick={() => { setOpen(false); openEditor() }}>✎ Configurar</button>}
@@ -89,7 +89,7 @@ export default function TopMenu({ story, activeId, songOf }) {
               )
             })}
           </ol>
-          <p className="menu-foot">Esto es solo una partecita de todo lo que hemos vivido, faltan muchísimos recuerdos por agregar.</p>
+          <p className="menu-foot">Esto es solo una parte de todo lo que hemos vivido. Faltan muchos recuerdos por agregar.</p>
         </div>
       </div>
     </>

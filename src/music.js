@@ -2,13 +2,14 @@ import { useSyncExternalStore } from 'react'
 
 // yt ids verified against the official channel uploads. To use your own audio file instead, put it in public/music/<key>.mp3
 export const SONGS = {
-  lloviendo: { title: 'Lloviendo estrellas', artist: 'Cristian Castro', yt: ['B8rBl4pwN0E', 'QnNqUEDDS0A'], mood: 'para estar tranquilos' },
-  holdon: { title: "Hold On, We're Going Home", artist: 'Drake', yt: ['GxgqpCdOKak', 'Ni6izPw1xSU', 'QKYkZnxZ3ZA'], mood: 'el día que me dijiste que sí' },
-  rumores: { title: 'Rumores', artist: 'Joan Sebastian', yt: ['z0e2l--wCJA', 'FL7ktlvZnH8', '7dI65toVCVQ'], mood: 'para querernos' },
-  yellow: { title: 'Yellow', artist: 'Coldplay', yt: ['yKNxeF4KMsY', 'tdVAqxNLXiw', 'q7mlB-adMBc'], mood: 'para las cartas' },
-  nothin: { title: "Nothin' on You", artist: "B.o.B ft. Bruno Mars", yt: ['8PTDv_szmL0', 'u3lz7oSd6JE', 'Evv200wdenQ'], mood: 'para ir a toda velocidad' },
-  feeling: { title: 'What a Feeling', artist: 'Irene Cara', yt: ['ILWSp0m9G2U', 'A64KVUfo4ew', 'miax0Jpe5mA'], mood: 'para cantar y bailar' },
-  goosebumps: { title: 'goosebumps', artist: 'Travis Scott', yt: ['Dst9gZkq1a8', '_9XaXHD3680'], mood: 'para los conciertos' },
+  lloviendo: { title: 'Lloviendo estrellas', artist: 'Cristian Castro', yt: ['V-FlD5R6AqY', 'QnNqUEDDS0A', 'B8rBl4pwN0E'], mood: 'para estar tranquilos' },
+  holdon: { title: "Hold On, We're Going Home", artist: 'Drake', yt: ['Ni6izPw1xSU', 'QKYkZnxZ3ZA', 'GxgqpCdOKak'], mood: 'para las cartas' },
+  rumores: { title: 'Rumores', artist: 'Joan Sebastian', yt: ['riDCFCCO55g', 'z0e2l--wCJA', 'FL7ktlvZnH8'], mood: 'para querernos' },
+  yellow: { title: 'Yellow', artist: 'Coldplay', yt: ['tdVAqxNLXiw', 'q7mlB-adMBc', 'yKNxeF4KMsY'], mood: 'el día que me dijiste que sí' },
+  nothin: { title: "Nothin' on You", artist: "B.o.B ft. Bruno Mars", yt: ['63POUDRcK9E', 'u3lz7oSd6JE', '8PTDv_szmL0'], mood: 'para ir a toda velocidad' },
+  feeling: { title: 'What a Feeling', artist: 'Irene Cara', yt: ['OtTm41dyYfk', '9HSxzkt0rTM', 'A64KVUfo4ew'], mood: 'para cantar y bailar' },
+  dieforyou: { title: 'Die For You', artist: 'The Weeknd', yt: ['2AH5l-vrY9Q', 'QLCpqdqeoII', 'uPD0QOGTmMI'], mood: 'para cocinar' },
+  goosebumps: { title: 'goosebumps', artist: 'Travis Scott', yt: ['FhTtYSU7Q7g', '_9XaXHD3680', 'Dst9gZkq1a8'], mood: 'para los conciertos' },
 }
 export const ytUrl = (ids) => `https://www.youtube.com/watch?v=${[].concat(ids)[0]}`
 const bad = new Set()

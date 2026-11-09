@@ -16,7 +16,7 @@ function SiteTab({ site }) {
       {t('introLine', 'Frase de la portada')}
       {t('introHint', 'Pista bajo el título')}
       <div className="cf-row">{t('startDate', 'Primer recuerdo', { type: 'date' })}{t('anniversaryDate', 'Aniversario', { type: 'date' })}</div>
-      <Field label="Prólogo (una frase por línea)" hint="Usa {days}, {photos}, {videos}, {total}">
+      <Field label="Introducción (un párrafo por línea)" hint="Usa {days}, {photos}, {videos}, {total}">
         <textarea rows={6} value={site.prologue.join('\n')} onChange={(e) => setSite('prologue', e.target.value.split('\n'))} />
       </Field>
       <Field label="Sus gustos (uno por línea, salen en el final)"><textarea rows={8} value={site.likes.join(String.fromCharCode(10))} onChange={(e) => setSite('likes', e.target.value.split(String.fromCharCode(10)))} /></Field>

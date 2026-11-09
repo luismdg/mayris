@@ -48,3 +48,10 @@
 .tb-brand { margin-right: auto; } .tb-now { margin-right: auto; } .tb-now:empty { display: none; }
 .menu-x { display: none; }
 @media (max-width: 800px) { .intro-eyebrow { letter-spacing: .18em; font-size: 10px; line-height: 1.7; margin-bottom: 1.4rem; } .intro-copy { top: 46%; } .intro h1 { font-size: clamp(60px, 19vw, 120px); } }
+
+/* ============ Introducción corta ============ */
+.intro-text { background: #0a0507; color: #f6e3c8; padding: 16vh 7vw 18vh; display: grid; place-items: center; }
+.intro-text > div { max-width: 640px; }
+.intro-text small { display: block; font: 500 12px 'JetBrains Mono', monospace; letter-spacing: .3em; text-transform: uppercase; color: #ff8fab; margin-bottom: 28px; }
+.intro-text p { font: 400 clamp(19px, 2.3vw, 25px)/1.65 'Cormorant Garamond', serif; margin: 0 0 1.4em; color: #f2dcc6; }
+.intro-text p:last-child { margin-bottom: 0; }

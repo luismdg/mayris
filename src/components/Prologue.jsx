@@ -1,41 +1,29 @@
-import { Fragment, useLayoutEffect, useRef } from 'react'
+import { useLayoutEffect, useRef } from 'react'
 import { gsap, reduceMotion } from '../motion'
+import { fmtDate } from '../store'
 
 const daysSince = (iso) => Math.max(0, Math.floor((Date.now() - new Date(iso + 'T00:00:00')) / 864e5))
 
-// Cafeteria-style: a sticky stage where big statements take over the screen one by one as you scroll.
+// Introducción corta: el día en que todo empezó y los días en que nos fuimos enamorando.
 export default function Prologue({ site, counts }) {
   const root = useRef(null)
-  const lines = site.prologue.map((l) => l
+  const paras = site.prologue.map((l) => l
     .replace('{days}', daysSince(site.startDate).toLocaleString('es-MX'))
     .replace('{photos}', counts.photos).replace('{videos}', counts.videos).replace('{total}', counts.total))
 
   useLayoutEffect(() => {
-    const el = root.current
-    if (reduceMotion()) { el.classList.add('static'); return }
+    if (reduceMotion()) return
     const ctx = gsap.context(() => {
-      const items = gsap.utils.toArray('.pl-line', el)
-      const tl = gsap.timeline({ scrollTrigger: { trigger: el, start: 'top top', end: 'bottom bottom', scrub: 0.6 } })
-      items.forEach((it, i) => {
-        const chars = it.querySelectorAll('.pw')
-        tl.fromTo(chars, { yPercent: 110, opacity: 0 }, { yPercent: 0, opacity: 1, stagger: 0.05, duration: 1, ease: 'power3.out' })
-          .to(it, { duration: 1.2 }) // hold
-        if (i < items.length - 1) tl.to(chars, { yPercent: -110, opacity: 0, stagger: 0.03, duration: 0.8, ease: 'power3.in' })
-      })
-      gsap.to('.pl-bar span', { scaleX: 1, ease: 'none', scrollTrigger: { trigger: el, start: 'top top', end: 'bottom bottom', scrub: true } })
-    }, el)
+      gsap.utils.toArray('.pi-el', root.current).forEach((el) => gsap.from(el, { y: 26, opacity: 0, duration: 1.1, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 88%' } }))
+    }, root)
     return () => ctx.revert()
-  }, [lines.join('|')])
+  }, [paras.join('|')])
 
   return (
-    <section className="prologue" id="prologue" ref={root} style={{ height: `${lines.length * 130}vh` }}>
-      <div className="pl-sticky">
-        <div className="pl-bar"><span /></div>
-        {lines.map((l, i) => (
-          <h2 className="pl-line" key={i}>
-            {l.split(' ').map((w, j) => <Fragment key={j}><span className="pwrap"><span className="pw">{w}</span></span>{' '}</Fragment>)}
-          </h2>
-        ))}
+    <section className="intro-text" id="prologue" ref={root}>
+      <div>
+        <small className="pi-el">{fmtDate(site.startDate, { day: 'numeric', month: 'long', year: 'numeric' })}</small>
+        {paras.map((p, i) => <p className="pi-el" key={i}>{p}</p>)}
       </div>
     </section>
   )

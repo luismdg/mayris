@@ -83,7 +83,7 @@ export default function App() {
     return () => { a.kill(); b.kill(); r2.kill(); clearTimeout(r); clearTimeout(r3); clearTimeout(r4); window.removeEventListener('load', onLoad) }
   }, [phase, chapters.length])
 
-  useEffect(() => { if (activeCh?.song) playFor(activeCh.song) }, [activeCh?.id, activeCh?.song])
+  useEffect(() => { const k = active === 'recetas' ? 'dieforyou' : activeCh?.song; if (k) playFor(k) }, [active, activeCh?.id, activeCh?.song])
 
   const dataTheme = active === 'finale' ? 'petals' : active === 'recetas' ? 'kitchen' : activeCh?.theme || 'petals'
   return (
